@@ -18,7 +18,7 @@ while True:
                 "buttons": [
                     {
                         "label": "Add Obsidion",
-                        "url": "https://discord.com/oauth2/authorize?client_id=691589447074054224&scope=bot&permissions=314448",
+                        "url": "https://discord.com/oauth2/authorize?client_id=691589447074054224&scope=bot+applications.commands&permissions=19520",
                     },
                     {
                         "label": "Discord Server",
