@@ -10,7 +10,6 @@ while True:
         print("RPC connection successful.")
 
         time.sleep(5)
-        start_time = mktime(time.localtime())
         while True:
             activity = {
                 "details": "Minecraft Discord Bot",
@@ -28,5 +27,5 @@ while True:
             }
             rpc_obj.set_activity(activity)
             time.sleep(30)
-    except:
+    except OSError:
         pass
